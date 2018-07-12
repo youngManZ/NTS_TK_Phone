@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/NTS_TK_Recent" "${PODS_ROOT}/Headers/Public/PGDatePicker" "${PODS_ROOT}/Headers/Public/PGPickerView" "${PODS_ROOT}/Headers/Public/ProvideManager" "${PODS_ROOT}/Headers/Public/SGPagingView" "${PODS_ROOT}/Headers/Public/YYDispatchQueuePool"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/NTS_TK_Recent" "${PODS_CONFIGURATION_BUILD_DIR}/PGDatePicker" "${PODS_CONFIGURATION_BUILD_DIR}/PGPickerView" "${PODS_CONFIGURATION_BUILD_DIR}/ProvideManager" "${PODS_CONFIGURATION_BUILD_DIR}/SGPagingView" "${PODS_CONFIGURATION_BUILD_DIR}/YYDispatchQueuePool"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/NTS_TK_Recent" -isystem "${PODS_ROOT}/Headers/Public/PGDatePicker" -isystem "${PODS_ROOT}/Headers/Public/PGPickerView" -isystem "${PODS_ROOT}/Headers/Public/ProvideManager" -isystem "${PODS_ROOT}/Headers/Public/SGPagingView" -isystem "${PODS_ROOT}/Headers/Public/YYDispatchQueuePool"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"NTS_TK_Recent" -l"PGDatePicker" -l"PGPickerView" -l"ProvideManager" -l"SGPagingView" -l"YYDispatchQueuePool" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactViewController">
+            <connections>
+                <outlet property="searchText" destination="a4R-1y-iwy" id="CXb-5G-B6Q"/>
+                <outlet property="searchView" destination="eSq-Cd-Cyg" id="479-xO-DyU"/>
+                <outlet property="tableView" destination="1hG-hs-NiK" id="Jja-Qs-mL8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1hG-hs-NiK">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Ca7-VU-2NE"/>
+                        <outlet property="delegate" destination="-1" id="EkD-Kt-CL5"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSq-Cd-Cyg">
+                    <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="输入搜索的联系人姓名、号码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a4R-1y-iwy">
+                            <rect key="frame" x="10" y="4.5" width="355" height="35"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="ts3-2u-avp"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96726284890000003" green="0.96726284890000003" blue="0.96726284890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="a4R-1y-iwy" secondAttribute="trailing" constant="10" id="1Qw-7t-DHx"/>
+                        <constraint firstAttribute="bottom" secondItem="a4R-1y-iwy" secondAttribute="bottom" constant="4.5" id="JYB-qU-m7q"/>
+                        <constraint firstItem="a4R-1y-iwy" firstAttribute="top" secondItem="eSq-Cd-Cyg" secondAttribute="top" constant="4.5" id="UBO-pX-BzS"/>
+                        <constraint firstItem="a4R-1y-iwy" firstAttribute="leading" secondItem="eSq-Cd-Cyg" secondAttribute="leading" constant="10" id="pJb-Ke-nYx"/>
+                        <constraint firstAttribute="height" constant="44" id="qFu-tS-1PO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eSq-Cd-Cyg" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="Jay-bH-moi"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="eSq-Cd-Cyg" secondAttribute="trailing" id="L7O-un-dum"/>
+                <constraint firstItem="eSq-Cd-Cyg" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Qqi-lk-Q45"/>
+                <constraint firstItem="1hG-hs-NiK" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Wxa-y8-lt1"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="1hG-hs-NiK" secondAttribute="trailing" id="aTC-il-aXk"/>
+                <constraint firstItem="1hG-hs-NiK" firstAttribute="top" secondItem="eSq-Cd-Cyg" secondAttribute="bottom" id="jzJ-VI-ObL"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="1hG-hs-NiK" secondAttribute="bottom" id="rAg-Ah-WNH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
