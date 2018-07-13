@@ -392,10 +392,8 @@
 			children = (
 				330EA5F920F5A9E2000D361C /* QueryCallRecentVC.h */,
 				330EA5FA20F5A9E2000D361C /* QueryCallRecentVC.m */,
-				330EA5FB20F5A9E2000D361C /* QueryCallRecentVC.xib */,
 				330EA60920F5FAB1000D361C /* QueryCallRecentCell.h */,
 				330EA60A20F5FAB1000D361C /* QueryCallRecentCell.m */,
-				330EA60B20F5FAB1000D361C /* QueryCallRecentCell.xib */,
 			);
 			path = "话单查询";
 			sourceTree = "<group>";
@@ -415,7 +413,6 @@
 			children = (
 				330EA60F20F5FE46000D361C /* CardChargeVC.h */,
 				330EA61020F5FE46000D361C /* CardChargeVC.m */,
-				330EA61120F5FE46000D361C /* CardChargeVC.xib */,
 			);
 			path = "充值卡充值";
 			sourceTree = "<group>";
@@ -494,7 +491,6 @@
 				339684C920C7BEDE00D19CB4 /* ContactViewController */,
 				33116A0320C147C7006D341C /* PhoneViewController.h */,
 				33116A0420C147C7006D341C /* PhoneViewController.m */,
-				33116A0520C147C7006D341C /* PhoneViewController.xib */,
 			);
 			path = NTS_TK_PhoneViewController;
 			sourceTree = "<group>";
@@ -538,7 +534,6 @@
 			children = (
 				333DF11F20F6E8D200B8DCF3 /* OpenMemberVC.h */,
 				333DF12020F6E8D200B8DCF3 /* OpenMemberVC.m */,
-				333DF12120F6E8D200B8DCF3 /* OpenMemberVC.xib */,
 			);
 			path = "开通会员";
 			sourceTree = "<group>";
@@ -561,10 +556,8 @@
 				330EA5F820F5A992000D361C /* 话单查询 */,
 				337D42B420CE1ED300573925 /* PhoneSetViewController.h */,
 				337D42B520CE1ED300573925 /* PhoneSetViewController.m */,
-				337D42B620CE1ED300573925 /* PhoneSetViewController.xib */,
 				3321C63020E9CBEC009408A7 /* PhoneSetCell.h */,
 				3321C63120E9CBEC009408A7 /* PhoneSetCell.m */,
-				3321C63220E9CBEC009408A7 /* PhoneSetCell.xib */,
 			);
 			path = PhoneSetViewController;
 			sourceTree = "<group>";
@@ -572,6 +565,18 @@
 		3396844920C7BE2400D19CB4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				337D42B620CE1ED300573925 /* PhoneSetViewController.xib */,
+				3321C63220E9CBEC009408A7 /* PhoneSetCell.xib */,
+				330EA5FB20F5A9E2000D361C /* QueryCallRecentVC.xib */,
+				330EA61120F5FE46000D361C /* CardChargeVC.xib */,
+				333DF12120F6E8D200B8DCF3 /* OpenMemberVC.xib */,
+				33B1819A20C920A600BB787C /* DetailContactVC.xib */,
+				330EA60B20F5FAB1000D361C /* QueryCallRecentCell.xib */,
+				33B181A020C927A200BB787C /* DetailContactCell.xib */,
+				339684C620C7BEC600D19CB4 /* NumCollectionViewCell.xib */,
+				339684CC20C7BF0600D19CB4 /* ContactViewController.xib */,
+				33116A0520C147C7006D341C /* PhoneViewController.xib */,
+				33F4751F20C7C6B6007F1725 /* ContactTableViewCell.xib */,
 				3321C5FF20E9C4DA009408A7 /* phoneset */,
 				339684CF20C7C01D00D19CB4 /* ContactIcon */,
 				3396844A20C7BE2400D19CB4 /* PhoneIcon */,
@@ -694,7 +699,6 @@
 			children = (
 				339684C420C7BEC600D19CB4 /* NumCollectionViewCell.h */,
 				339684C520C7BEC600D19CB4 /* NumCollectionViewCell.m */,
-				339684C620C7BEC600D19CB4 /* NumCollectionViewCell.xib */,
 			);
 			path = NumCollectionCell;
 			sourceTree = "<group>";
@@ -705,7 +709,6 @@
 				33B1819720C9208A00BB787C /* DeatilContactVC */,
 				339684CA20C7BF0600D19CB4 /* ContactViewController.h */,
 				339684CB20C7BF0600D19CB4 /* ContactViewController.m */,
-				339684CC20C7BF0600D19CB4 /* ContactViewController.xib */,
 			);
 			path = ContactViewController;
 			sourceTree = "<group>";
@@ -749,7 +752,6 @@
 			children = (
 				33B1819820C920A600BB787C /* DetailContactVC.h */,
 				33B1819920C920A600BB787C /* DetailContactVC.m */,
-				33B1819A20C920A600BB787C /* DetailContactVC.xib */,
 			);
 			path = DeatilContactVC;
 			sourceTree = "<group>";
@@ -759,7 +761,6 @@
 			children = (
 				33B1819E20C927A200BB787C /* DetailContactCell.h */,
 				33B1819F20C927A200BB787C /* DetailContactCell.m */,
-				33B181A020C927A200BB787C /* DetailContactCell.xib */,
 			);
 			path = DetailContactCell;
 			sourceTree = "<group>";
@@ -769,7 +770,6 @@
 			children = (
 				33F4751D20C7C6B6007F1725 /* ContactTableViewCell.h */,
 				33F4751E20C7C6B6007F1725 /* ContactTableViewCell.m */,
-				33F4751F20C7C6B6007F1725 /* ContactTableViewCell.xib */,
 			);
 			path = ContactTableViewCell;
 			sourceTree = "<group>";
