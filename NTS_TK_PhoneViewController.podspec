@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NTS_TK_PhoneViewController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "NTS_TK_PhoneViewController is phoneVC."
 
   # This description is used to generate tags and improve search results.
@@ -134,10 +134,10 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "ProvideManager"
-  s.dependency "NTS_TK_Recent"
-  s.dependency "SGPagingView"
-  s.dependency "YYDispatchQueuePool"
-  s.dependency "PGDatePicker"
+  s.dependency 'ProvideManager'
+  s.dependency 'NTS_TK_Recent'
+  s.dependency 'SGPagingView'
+  s.dependency 'YYDispatchQueuePool'
+  s.dependency 'PGDatePicker'
 
 end
