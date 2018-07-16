@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint NTS_TK_Phone.podspec' to ensure this is a
+#  Be sure to run `pod spec lint NTS_TK_PhoneViewController.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "NTS_TK_Phone"
-  s.version      = "0.0.4"
-  s.summary      = "NTS_TK_Phone is good."
+  s.name         = "NTS_TK_PhoneViewController"
+  s.version      = "0.0.1"
+  s.summary      = "NTS_TK_PhoneViewController is phoneVC."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   NTS_TK_Phone is good.good
+                   is phoneVC. good
                    DESC
 
-  s.homepage     = "https://github.com/youngManZ/NTS_TK_Phone"
+  s.homepage     = "https://github.com/youngManZ/NTS_TK_PhoneViewController"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/youngManZ/NTS_TK_Phone.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/youngManZ/NTS_TK_PhoneViewController.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
